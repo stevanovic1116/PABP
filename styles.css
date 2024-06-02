@@ -1,0 +1,30 @@
+body {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 150px;
+    padding: 30px;
+    font-size: inherit;
+}
+
+.btn {
+    padding: 30px 30px;
+    font-size: inherit;
+}

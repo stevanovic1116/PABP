@@ -1,0 +1,23 @@
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Pomeri Stevanović osiguranje skroz levo */
+}
+
+.navbar-nav .nav-item {
+    margin-left: auto; /* Pomeri O nama, Kontakt, Početna strana u sredinu */
+    margin-right: auto;
+}
+
+.navbar-nav.ml-auto {
+    margin-left: 0; /* Resetuj marginu za desni blok (Prijava, Registracija) */
+}
+
+.navbar-nav.ml-auto .nav-item {
+    margin-left: 10px; /* Dodatni prostor između Prijava i Registracija */
+}
